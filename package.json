@@ -1,0 +1,21 @@
+{
+  "name": "graphql-mesh-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:rangle/graphql-mesh-demo.git",
+  "author": "Michael Mrowetz <michael.mrowetz@rangle.io>",
+  "license": "None",
+  "private": true,
+  "scripts": {
+    "mesh:server": "graphql-mesh serve",
+    "mesh:ts": "graphql-mesh typescript --output generated-types.d.ts"
+  },
+  "dependencies": {
+    "@graphql-mesh/cache-file": "^0.2.13",
+    "@graphql-mesh/cli": "^0.2.13",
+    "@graphql-mesh/graphql": "^0.2.13",
+    "@graphql-mesh/openapi": "^0.2.13",
+    "@graphql-mesh/transform-prefix": "^0.2.13",
+    "graphql": "^15.3.0"
+  }
+}

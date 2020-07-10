@@ -1,0 +1,18 @@
+{
+  STRIPE_getBalance {
+    available {
+      amount
+    }
+    livemode
+    pending {
+      amount
+    }
+  }
+  STRIPE_getAccount {
+    id
+    email
+  }
+  GITHUB_user(login: "micmro") {
+    name
+  }
+}
